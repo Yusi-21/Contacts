@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/shopping_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/shopping_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShopFun"
+        tools:targetApi="31">
+        <activity
+            android:name=".ThanksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CatalogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PistachioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WatermelonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TomatoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PotatoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PepperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MelonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GarlicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CucumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CarrotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LimonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KiwiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GrapeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CherryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BlueberryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BerryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BananaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApricotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnanasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CabbageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

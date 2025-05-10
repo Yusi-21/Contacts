@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/bodoni_moda_extrabold</item>
+        <item>@font/grechen_fuemen</item>
+    </array>
+</resources>

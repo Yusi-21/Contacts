@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/gradient_bg">
+
+    <!-- Левый контейнер -->
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/image_left_apple"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fruit_apple"
+            android:background="@drawable/rounded_corner"
+            android:clipToOutline="true"/>
+
+        <TextView
+            android:id="@+id/name_left_apple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:fontFamily="@font/bodoni_moda_extrabold"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Правый контейнер -->
+    <LinearLayout
+        android:id="@+id/right_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/image_right_ananas"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fruit_ananas"
+            android:background="@drawable/rounded_corner"
+            android:clipToOutline="true"/>
+
+        <TextView
+            android:id="@+id/name_right_ananas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ananas"
+            android:fontFamily="@font/bodoni_moda_extrabold"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</LinearLayout>

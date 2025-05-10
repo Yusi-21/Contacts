@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shop &amp; Fun</string>
+
+    <string-array name="kilogram_options_all">
+        <item>1 kg</item>
+        <item>2 kg</item>
+        <item>3 kg</item>
+        <item>4 kg</item>
+        <item>5 kg</item>
+        <item>6 kg</item>
+        <item>7 kg</item>
+        <item>8 kg</item>
+        <item>9 kg</item>
+        <item>10 kg</item>
+    </string-array>
+
+    <string-array name="aboutUs">
+        <item>About us</item>
+        <item>Feedback</item>
+    </string-array>
+</resources>

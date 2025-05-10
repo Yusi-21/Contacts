@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingTop="20dp"
+    android:background="@drawable/gradient_bg">
+
+    <!-- Верхняя панель с кнопкой "назад", названием магазина и иконкой "поделиться" -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp">
+
+        <!-- Кнопка "назад" -->
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/left_back_btn"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        <!-- Название магазина -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/aclonica"
+            android:text="Shop &amp; Fun"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <!-- Иконка "поделиться" -->
+        <ImageButton
+            android:id="@+id/share_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/share_icon"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+    </LinearLayout>
+
+    <!-- ListView для прокрутки контента -->
+    <ListView
+        android:id="@+id/content_list_melon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+
+    <!-- Нижняя кнопка "добавить в каталог" -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/add_to_catalog_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Catalog"
+            android:drawableStart="@drawable/add_shopping"
+            android:fontFamily="@font/bodoni_moda_extrabold"
+            android:drawablePadding="8dp"
+            android:backgroundTint="#48FF00"
+            android:textColor="@color/black"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

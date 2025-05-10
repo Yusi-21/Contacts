@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="TextStyle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+</resources>

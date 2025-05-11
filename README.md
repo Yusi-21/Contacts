@@ -72,13 +72,15 @@ CREATE TABLE contacts (
 
 ## 📸 Скриншоты
 📸 Скриншоты
-![Image](https://github.com/user-attachments/assets/d48fbe72-b5e8-448a-8530-e11070018a9a)
 
-![Image](https://github.com/user-attachments/assets/10abc2e2-3716-4a42-805f-b986a9215e12)
 
-![Image](https://github.com/user-attachments/assets/367f9224-6c14-440c-9f58-58809c1aefb1)
+- ![Image](https://github.com/user-attachments/assets/10abc2e2-3716-4a42-805f-b986a9215e12)
 
-![Image](https://github.com/user-attachments/assets/f9c60663-be6a-40ee-aa34-196484dd409b)
+- ![Image](https://github.com/user-attachments/assets/d48fbe72-b5e8-448a-8530-e11070018a9a)
+
+- ![Image](https://github.com/user-attachments/assets/367f9224-6c14-440c-9f58-58809c1aefb1)
+
+- ![Image](https://github.com/user-attachments/assets/f9c60663-be6a-40ee-aa34-196484dd409b)
 
 
 ## ⚙ Установка

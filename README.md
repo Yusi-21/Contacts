@@ -78,7 +78,7 @@ CREATE TABLE contacts (
 <img src="https://github.com/Yusi-21/Contacts/raw/main/app/src/main/res/drawable/screenshot_2.jpg" width="30%" alt="screen2"/>
 <img src="https://github.com/Yusi-21/Contacts/raw/main/app/src/main/res/drawable/screenshot_3.jpg" width="30%" alt="screen3"/>
 
-*Главный экран и пример закона*
+*Логин, главный экран, поиск контактов*
 </div>
 
 

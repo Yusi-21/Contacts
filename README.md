@@ -71,16 +71,15 @@ CREATE TABLE contacts (
 - Material Design компоненты
 
 ## 📸 Скриншоты
-📸 Скриншоты
 
+<div align="center">
 
-- ![Image](https://github.com/user-attachments/assets/10abc2e2-3716-4a42-805f-b986a9215e12)
+<img src="https://github.com/Yusi-21/Contacts/raw/main/app/src/main/res/drawable/screenshot1.jpg" width="30%" alt="screen1"/>
+<img src="https://github.com/Yusi-21/Contacts/raw/main/app/src/main/res/drawable/screenshot2.jpg" width="30%" alt="screen2"/>
+<img src="https://github.com/Yusi-21/Contacts/raw/main/app/src/main/res/drawable/screenshot3.jpg" width="30%" alt="screen3"/>
 
-- ![Image](https://github.com/user-attachments/assets/d48fbe72-b5e8-448a-8530-e11070018a9a)
-
-- ![Image](https://github.com/user-attachments/assets/367f9224-6c14-440c-9f58-58809c1aefb1)
-
-- ![Image](https://github.com/user-attachments/assets/f9c60663-be6a-40ee-aa34-196484dd409b)
+*Главный экран и пример закона*
+</div>
 
 
 ## ⚙ Установка

@@ -41,7 +41,6 @@ CREATE TABLE contacts (
 ```
 
 ## 🛠 Функционал
-🛠 Функционал
 - 🔒 Система аутентификации через SharedPreferences
 - 📋 Просмотр списка всех контактов
 - ➕ Добавление новых контактов
@@ -57,7 +56,6 @@ CREATE TABLE contacts (
 - CreateContactActivity - создание/редактирование контакта
 
 ## 💻 Технологии
-💻 Технологии
 - Язык программирования: Java
 - Минимальная версия Android: 8.0 (API 26)
 
@@ -75,7 +73,9 @@ CREATE TABLE contacts (
 <div align="center">
 
 <img src="https://github.com/Yusi-21/Contacts/raw/main/app/src/main/res/drawable/screenshot_1.jpg" width="30%" alt="screen1"/>
+
 <img src="https://github.com/Yusi-21/Contacts/raw/main/app/src/main/res/drawable/screenshot_2.jpg" width="30%" alt="screen2"/>
+
 <img src="https://github.com/Yusi-21/Contacts/raw/main/app/src/main/res/drawable/screenshot_3.jpg" width="30%" alt="screen3"/>
 
 *Логин, главный экран, поиск контактов*
